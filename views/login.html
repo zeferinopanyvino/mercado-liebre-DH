@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bienvenides a Mercado Liebre</title>
+
+        <link href="../public/css/normalize.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+        <link href="../public/css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <header class="main-header">
+            <div class ="main-header-top-bar"> 
+                <div class="logo">
+                    <img src="../public/images/logo-mercado-liebre.svg" width="250" alt="Logo MercadoLiebre">
+                </div>
+                 
+                <div class="form" action="#" method="GET">
+                    <div class="input"><input type="text" placeholder="Buscar productos, marcas, etc"></div>
+                    <div class="submit"><i class="fas fa-search"></i></div>
+                </div>
+                <h2 class="copy-header"><i class="fas fa-hand-holding-usd"></i>
+                    Compra en cuotas y sin tarjetas de crédito
+                </h2>
+            </div>
+            <div class="burger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav class="main-navbar">
+                <ul class="left-navbar">
+                    <li><a href="#">Ofertas</li>
+                    <li><a href="#">Tiendas Oficiales</li>
+                    <li><a href="#">Vender</li>
+                    <li><a href="#">Ayuda</li>
+
+                </ul>
+                <ul class="right-navbar">
+                    <li><a href="/register">Crea tu cuenta</a><i class="far fa-address-card"></i></li>
+                    <li><a href="/login">Ingresa</a><i class="fas fa-sign-in-alt"></i></li>
+                    <li><a href="#">Mis compras</a><i class="fas fa-shopping-cart"></i></li>
+                </ul>
+
+            </nav> 
+            
+        </header>
+
+        <main class="login">
+            <form action="/" method="get">
+                <input type="text" name="user" placeholder="Nombre de usuario" minlength="3" required>
+                <input type="password" name="pass" placeholder="Elige tu contraseña">
+                <input type="submit" value="Enviar">
+
+            </form>
+
+        </main>
+    </body>
+    <footer>
+
+    </footer>    

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bienvenides a Mercado Liebre</title>
+
+        <link href="../public/css/normalize.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+        <link href="../public/css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <header class="main-header">
+            <div class ="main-header-top-bar"> 
+                <div class="logo">
+                    <img src="../public/images/logo-mercado-liebre.svg" width="250" alt="Logo MercadoLiebre">
+                </div>
+                 
+                <div class="form" action="#" method="GET">
+                    <div class="input"><input type="text" placeholder="Buscar productos, marcas, etc"></div>
+                    <div class="submit"><i class="fas fa-search"></i></div>
+                </div>
+                <h2 class="copy-header"><i class="fas fa-hand-holding-usd"></i>
+                    Compra en cuotas y sin tarjetas de crédito
+                </h2>
+            </div>
+            <div class="burger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav class="main-navbar">
+                <ul class="left-navbar">
+                    <li><a href="#">Ofertas</li>
+                    <li><a href="#">Tiendas Oficiales</li>
+                    <li><a href="#">Vender</li>
+                    <li><a href="#">Ayuda</li>
+
+                </ul>
+                <ul class="right-navbar">
+                    <li><a href="/register">Crea tu cuenta</a><i class="far fa-address-card"></i></li>
+                    <li><a href="/login">Ingresa</a><i class="fas fa-sign-in-alt"></i></li>
+                    <li><a href="#">Mis compras</a><i class="fas fa-shopping-cart"></i></li>
+                </ul>
+
+            </nav> 
+            
+        </header>
+
+        <main class="register">
+            <form action="/" method="get" class="create-form form">
+                <div class="control-formulario">
+                    <label>Nombre y apellido</label>
+                    <input type="text" name="nombre" class="control">
+                </div>
+                <div class="control-formulario">
+                    <label>Nombre de usuario</label>
+                    <input type="text" name="usuario" class="control">
+                </div>
+                <div class="control-formulario">
+                    <label>Fecha de nacimiento</label>
+                    <input type="date" name="fechanac" class="control">
+                </div>
+                <div class="control-formulario">
+                    <label>Domicilio</label>
+                    <input type="text" name="domicilio" class="control">
+                </div>
+                <div class="control-formulario">
+                    <label>Perfil usuario (¿compras o vendes?)</label>
+                    <select name="pefil-usuario" class="control">
+                        <option value="compra">Compro</option>
+                        <option value="vende">Vendo</option>
+                    </select>
+                </div>
+                <div class="control-formulario">
+                    <label>Nombre del producto:</label>
+                    <input type="radio" name="enOferta">
+                </div>
+                <div class="control-formulario">
+                    <label>Categoría:</label>
+                    <select name="categoría" class="control">
+                        <option value="hogar">Hogar</option>
+                        <option value="electro">Electrónica</option>
+                        <option value="moda">Moda</option>
+                        <option value="jugueteria">Juguetería</option>
+                        <option value="vida-sana">Vida sana</option>
+                    </select>
+                </div>
+                <div class="control-formulario">
+                    <label>Ciudad:</label>
+                    <select name="Ciudad" class="control">
+                        <option value="baires">Buenos Aires</option>
+                        <option value="ros">Rosario</option>
+                        <option value="tuc">Tucuman</option>
+                    </select>
+                </div>
+                
+                <divc lass="control-formulario">
+                    <label>Descripción</label>
+                    <textarea name="descripción" class="control"></textarea>
+                </div>
+                <div class="control-formulario">
+                    <label>Está en oferta:</label>
+                    <input type="radio" name="enOferta">
+                </div>
+                <button type="reset" class="boton-formulario">Borrar</button>
+                <button type="submit" class="boton-formulario">Guardar</button>
+
+            </form>
+        </main>
+    </body>
+    <footer>
+
+    </footer>    
+    

@@ -1,0 +1,400 @@
+:root{
+    --amarillo:#EAC926;
+    --azul : #03264C;
+    --celeste : #1259c3;
+    --grisOscuro : #666;
+    --grisClaro : #ebebeb;
+    --verde :#39b54a;
+}
+
+* { font-family: "Roboto";
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size:24px;
+}
+
+p{
+    font-size: 12px;
+}
+
+div.top-header{
+    display:flex;
+    flex-wrap:wrap;
+    padding:5%;
+}
+header div.top-header p{
+    width:100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.header p { text-align:center;
+    }
+
+.copy-header{ 
+        text-align: center;
+        font-weight: 400;
+        
+}
+
+header {
+    background-color: var(--amarillo);
+}
+header div.logo, header .form{
+    width:50%;
+}
+
+header div .logo{
+    padding:10px;
+}
+
+header .form{
+    display:flex;
+    align-items: center;
+}
+
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color:#666;
+    width:10%;
+}
+
+.burger-menu {
+    width:100%;
+    text-align: center;
+    background-size: 30em;
+    padding: 15px, 0;
+    display: block;
+    max-width:50px;
+    font-size:18px;
+    
+}
+
+.fa-bars{
+
+    color: white;
+    font-size: 20 px;
+    background-color: var(--celeste);
+    text-align:center;
+    shape-margin:10px;
+    padding:6px; 
+    margin-bottom: 15px;
+    border-radius: 7px;
+
+}
+
+body {
+    background-color: var(--grisClaro);
+    font-size: 12px;
+}
+
+
+.titulares{font-size: 24px;}
+.precios {
+    font-size: 18px;
+    width:30%
+}
+.descuentos,
+.descripciones{
+    font-size: 16 px;
+    font-weight: normal;
+    
+}
+.descuentos{
+    width:70%;
+}
+
+h3, 
+.descripciones{
+    color: #666;
+}
+
+.descripciones{
+    display:none;
+    margin-top:20px;
+}
+
+.main-navbar{
+    display:block;
+}
+.main-navbar ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.main-navbar a{
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: var(--grisOscuro);
+    display: inline-block;
+    padding:5px 0;
+    font-size:17px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding:0
+}
+
+.playground header{
+    
+        background-color:"lightseagreen";
+        color: white;
+        font-size: 28px;
+        border-bottom: solid 3px indigo;
+        padding: 22px;
+        margin-bottom: 15px;
+        text-align: center;
+        box-sizing: border-box;
+      
+}
+.playground section{
+        width: 50%;
+        margin-left:25%;
+        background-color: gainsboro;
+        margin-bottom: 15px;
+        
+        padding-left: 12px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border: dashed 1px black;
+        border-radius: 5px;
+        text-align: center;
+        
+        box-sizing: border-box;
+}
+.playground footer{
+    background-color: "rebeccapurple";
+    color: white;
+    border-top: solid 1px "lightseagreen";
+    padding: 12px;
+    height:40px;
+    text-align: center;
+    box-sizing:border-box
+}
+
+main {
+    width:90%;
+    background-color: whitesmoke;
+    padding:5px;
+    margin:0 auto;
+}
+
+main h3 {
+    font-size: 24px;
+}
+
+main section article{
+    background-color: #fff;
+    margin: 10px 0px;
+    text-align: center;
+}
+/*también se puede poner como article div.main-article{}  para mayor especificidad*/
+.main-article { 
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: baseline;
+    border-top: solid 1px #ebebeb;
+    position: relative;
+    padding:15px;
+    
+}
+
+main section article img{
+    width:100%;
+}
+
+main section article i{
+    display:block;
+    font-size:16px;
+    padding:5px;
+    width:30px;
+    height:30px;
+    border:1px solid #39b54a;
+    border-radius: 50%;
+    color: #39b54a;
+    position: absolute;
+    right:20px;
+    top:-15px;
+
+}
+
+main section article p{
+    display:block;
+    
+} 
+.productos {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+}
+
+.footer h4 {
+    font-size: larger;
+    margin-top: 0em;
+    color:var(--grisClaro);
+}
+.footer i {
+    font-size: 2em;
+    color: lightblue;
+    margin-bottom: 5px;
+}
+
+.footer section {
+    padding: 25px 0px;
+}
+
+.footer p {
+    color:var(--grisClaro);
+}
+
+.contenedor {
+    width:90%;
+    padding:15px;
+    border: solid 5px black;
+    margin:auto;
+
+}
+
+.contenedor2playground {
+    width: 50%;
+    
+}
+
+/*formulario*/
+
+.create-form{
+    padding:20p 15px;
+}
+
+.control-formulario{
+    margin-bottom:5px;
+    font-style: italic;
+    display:block;  
+}
+
+.control{
+    width:100px;
+    padding:8px;
+}
+.boton-formulario{
+    background-color: #39b54a;
+    border: none;
+    font-size: 20px;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+/*navegacion tablets*/
+@media (min-width: 361px) {
+    .burger-menu{
+        display: none;
+    }
+
+    .main-navbar{
+        display:flex;
+    }
+
+    main section article .descripciones{ 
+        display: block; /*esto hará que se muestre el h3 y descripcion para pantallas grandes pues por defecto estaba en none*/
+    }
+
+    /*de ĆSSmatic el de playground debería ser box-shadow: 0px 0px 10px rgb(100, 100, 100);*/
+    main section article{ 
+        -webkit-box-shadow: 12px 12px 8px 0px rgba(204,155,204,0.64);
+        -moz-box-shadow: 12px 12px 8px 0px rgba(204,155,204,0.64);
+        box-shadow: 12px 12px 8px 0px rgba(204,155,204,0.64);
+        
+    }
+    main section div.productos{
+        display: flex; /*activa en contexto flex-container y poder trabajar a hijxs*/
+        flex-direction:row; /*defecto, derecha->izq*/
+        flex-wrap:wrap; /*respeta el ancho de lxs hijxs*/
+        justify-content: space-between; /*distribuye con espacios enmedio*/
+        align-items: flex-start; /*alineado desde arriba hacia abajo*/
+    }
+    main section div.productos article{
+        width:45%;
+    }
+    .price{
+        width:30%;
+    }
+    .discount{
+        width:70%;
+    }
+}
+
+/*navegacion computadores*/
+@media (min-width: 769px) {
+    .main-header-top-bar{
+        display:flex;
+        justify-content:space-between;
+    }
+    .copy-header{
+        max-width: 350px;
+        text-align: right;
+    }
+    .burger-menu{
+        display:none; /*de hecho con ponerla en la de tablets bastaba*/
+    }
+    .main-navbar{
+        /* usamos esto para poder observar qué se mdifica border:dotted 2px red;*/
+        display:flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul {
+        display:flex;   
+    }
+
+    .main-navbar li {
+        margin: 0 5px;
+    }
+    main section div.productos article{
+        width: 22%; /*esto asegura que entren 4 fotos*/
+    }
+
+}
+
+@media (min-width:1200px){
+    .logo{
+        width:250px;
+    }
+    .main-header-top-bar, .main-navbar{
+        max-width : 1200px;
+        margin: auto;
+    }
+    .main-header-top-bar{
+        align-items: center;
+    }
+
+    .copy-header{
+        max-width: none;
+        font-size: 22px;
+        font-weight: 400;
+        margin:0;
+    }
+    .main-navbar{
+        margin-top:50px;
+    }
+    .main-navbar li{
+        margin:0 10px;
+    }
+    .main-navbar a{
+        font-size:19px
+    }
+
+}
